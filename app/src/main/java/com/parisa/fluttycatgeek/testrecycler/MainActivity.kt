@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity(), MainRecyclerAdapter.Interaction {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val list = mutableListOf(
+        var list = mutableListOf(
             UsersFieldDto(1, "Medicine"),
             UsersFieldDto(2, "Pharmacy"),
             UsersFieldDto(3, "Nursing"),
